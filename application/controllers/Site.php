@@ -9,6 +9,7 @@
 class SiteController extends Yaf_Controller_Abstract{
     public $actions = array(
         'register'  =>  'controllers/Site/register.php',
+        'index'     =>  'controllers/Site/index.php',
     );
 
     public function init() {
