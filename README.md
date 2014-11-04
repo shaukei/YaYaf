@@ -20,16 +20,16 @@ Welcome to YaYaf!
 > - 框架使用PHP 5.5及以上版本
 
 <pre>
-├─application			//项目代码
-│  ├─bootstrap		//各模块自己的Bootstrap
-│  ├─controllers		//控制器
-│  ├─library				//库文件
-│  │  ├─Functions	//公共功能函数
-│  ├─modules			//模块
-│  ├─models			//模型
-│  ├─plugins			//插件类
+├─application           //项目代码
+│  ├─bootstrap		    //各模块自己的Bootstrap
+│  ├─controllers	    //控制器
+│  ├─library		    //库文件
+│  │  ├─Functions	    //公共功能函数
+│  ├─modules		    //模块
+│  ├─models			    //模型
+│  ├─plugins		    //插件类
 │  └─views			    //视图模板
-├─config				//配置文件
-└─htdocs			//网站入口
+├─config			    //配置文件
+└─htdocs		        //网站入口
 </pre>
 
