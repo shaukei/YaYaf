@@ -24,7 +24,7 @@ Welcome to YaYaf!
 │  ├─bootstrap		    //各模块自己的Bootstrap
 │  ├─controllers	    //控制器
 │  ├─library		    //库文件
-│  │  ├─Functions	    //公共功能函数
+│  │  └─Functions	    //公共功能函数
 │  ├─modules		    //模块
 │  ├─models			    //模型
 │  ├─plugins		    //插件类
