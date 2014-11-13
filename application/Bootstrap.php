@@ -15,4 +15,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
         foreach(glob(APPLICATION_PATH . DIRECTORY_SEPARATOR . 'library' . DIRECTORY_SEPARATOR . 'Functions' . DIRECTORY_SEPARATOR . '*.php') as $phpfile)
             Yaf_Loader::import($phpfile);
     }
+
+    public function _initRoutes() {
+        Yaf_Dispatcher::getInstance()->getRouter()->addConfig(
+            Yaf_Application::app()->getConfig()->get('routes')
+        );
+    }
 } 
