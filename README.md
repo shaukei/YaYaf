@@ -33,3 +33,10 @@ Welcome to YaYaf!
 └─htdocs		        //网站入口
 </pre>
 
+日志
+-----------
+
+> 1.
+
+> **新增图片验证码**
+> 来源：https://github.com/Gregwar/Captcha.git
