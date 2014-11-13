@@ -12,8 +12,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract{
     }
 
     public function _initLoadFunc() {
-        foreach(glob(APPLICATION_PATH . DIRECTORY_SEPARATOR . 'library' . DIRECTORY_SEPARATOR . 'Functions' . DIRECTORY_SEPARATOR . '*.php') as $phpfile)
-            Yaf_Loader::import($phpfile);
+        $funsdir = APPLICATION_PATH . DIRECTORY_SEPARATOR . 'library' . DIRECTORY_SEPARATOR . 'Functions';
+        if (is_dir($funsdir))
+            foreach(glob($funsdir . DIRECTORY_SEPARATOR . '*.php') as $phpfile)
+                Yaf_Loader::import($phpfile);
     }
 
     public function _initRoutes() {
