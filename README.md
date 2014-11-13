@@ -40,3 +40,4 @@ Welcome to YaYaf!
 
 > **新增图片验证码**
 > 来源：https://github.com/Gregwar/Captcha.git
+> 示例：/gregwar/captcha
